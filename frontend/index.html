@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Quote App</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,6 +15,26 @@
         <p id="quote">Click the button to get a quote.</p>
 
         <button id="quote-button">Get Quote</button>
+
+        <h2>Add a Quote</h2>
+
+        <form id="quote-form">
+            <input
+                id="new-quote"
+                type="text"
+                placeholder="Enter a quote"
+                required
+            >
+
+            <input
+                id="new-author"
+                type="text"
+                placeholder="Enter the author"
+                required
+            >
+
+            <button type="submit">Add Quote</button>
+        </form>
     </main>
 
     <script src="script.js"></script>
